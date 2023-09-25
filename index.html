@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">My Portfolio</a>
+        <ul class="nav">
+            <li><a href="#home" class="content home active" onclick="changeActive('home');"><i class="fa-solid fa-house" aria-hidden="true"></i></a></li>
+            <li><a href="#about" class="content about" onclick="changeActive('about')" style="width: 70px;">About</a></li>
+            <li><a href="#skills" class="content skills" onclick="changeActive('skills');">Skills</a></li>
+            <li><a href="#projects" class="content projects" onclick="changeActive('projects');">Projects</a></li>
+            <li><a href="#contacts" class="content contacts" onclick="changeActive('contacts')">Contact</a></li>
+            
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Komal Raj S</h1>
+            <h3>And I'm a passionate coder</h3>
+            <p>I'm a student persuing B.E. degree from Ramaiah Institute Of Technology, interested in web development, database management, java development, frontend design, and many more...</p>
+            <br>
+            <div class="social_media">
+                <a href="https://github.com/KomalRajS" style="color: black;"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                <a href="https://wa.me/919019825471" style="color: green;"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="https://instagram.com/iamkomalrajs" style="color: rgb(250, 5, 127)"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://in.linkedin.com/in/komal-raj-s-55236a289" style="color:rgb(31, 31, 228)"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <br><br>
+            <a href="#about" class="btn-box">More about me</a>
+        </div>
+            <div class="home-img">
+                <img src="./images/profile.jpg" alt="" height="300px" width="500px" />
+            </div>
+       
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/me.png" alt="" height="500px" width="400px" />
+        </div>
+
+        <div class="about-content">
+            <h2>About <span> me</span></h2>
+            <p>
+                I am a hardworking and passionate coder with positive attitude and strong organizational skills. I have good knowledge on the concepts of wed development, Object oriented languages programming, database management and so on.
+                I have a good hold on languages like C, Java, HTML, CSS, JS, php, mySql, mongoDb, etc.
+                I am eager to work and gain real-world experience in the industrial environment. I'm a detail-oriented team player
+                with the ability to handle multiple projects simultaneously with a high
+                degree of accuracy, effecient communication skills, thinking capabilities.
+            </p>
+            <a href="#education" class="btn-box">About my education</a>
+        </div>
+        <div class="education" id="education">
+
+        </div>
+
+    </section>
+    <h1 class="subtitle">My <span>Skills</span></h1>
+
+    <section class="skills" id="skills">
+        <div class="container1" >
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="technical-bars">
+                <div class="bar">
+                    <div class="info"><i class="fa-sharp fa-beat fa-c" aria-hidden="true"></i><br>
+                        <span>C</span>
+                    </div>
+                    <div class="progress-line c">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info"><i class="fa-brands fa-java fa-beat" aria-hidden="true"></i><br>
+                        <span>Java</span>
+                    </div>
+                    <div class="progress-line java">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="fa-solid fa-database fa-beat" aria-hidden="true"></i>
+                    <div class="info">
+                        <span>SQL</span>
+                    </div>
+                    <div class="progress-line sql">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="fa-brands fa-html5 fa-beat" style="color: #ff470a;" aria-hidden="true"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="fa-brands fa-css3-alt fa-beat" style="color: #0741a6;" aria-hidden="true"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="fa-brands fa-js fa-beat" style="color: #dfcd0c;" aria-hidden="true"></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line js">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="fa-brands fa-php fa-beat" style="color: #80738c;" aria-hidden="true"></i>
+                    <div class="info">
+                        <span>php</span>
+                    </div>
+                    <div class="progress-line php">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1 class="heading1">Professional skills</h1>
+         <div class="radial-bars">
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Teamwork</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">95%</div>
+                <div class="text">Communication</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="text">Creative thinking</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">80%</div>
+                <div class="text">Conceptual Skills</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-5" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">80%</div>
+                <div class="text">Critical Thinking</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-6" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Presentation Skills</div>
+            </div>
+         </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div id="portfolio">
+            <div class="projects-text">
+                <h2>My <span>Projects</span></h2>
+                <div class="projects_content">
+                    <div class="projs">
+                        <img src="./images/lms.png" alt="" height="100px" width="650px">
+                        <div class="layer">
+                            <h5>Library Database Management System</h5>
+                            <p>A complete library management webapp comprising of student module and admin(librarian) module, using HTML, CSS, JavaScript, PHP, MySQL.</p>
+                            <a href="http://libmansys23.000webhostapp.com/index.php"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div><div class="projs">
+                        <img src="./images/landing_page.png" alt="">
+                        <div class="layer">
+                            <h5>Landing Page</h5>
+                            <p>A responsive, attractive landing page for a streaming platform of movies and series, using HTML, CSS, JavaScript.</p>
+                            <a href=https://movries23.000webhostapp.com/index.html><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="projs">
+                        <img src="./images/calculator.jpg" alt="">
+                        <div class="layer">
+                            <h5>Calculator</h5>
+                            <p>A simple, responsive calculator that can perform simple arithmetic operations, built using Java Swing</p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projs">
+                        <img src="./images/location-tracking.jpg" alt="">
+                        <div class="layer">
+                            <h5>Know My Location</h5>
+                            <p>A simple current location tracer using HTML and JavaScript</p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projs">
+                        <img src="./images/temperature.jpg" alt="">
+                        <div class="layer">
+                            <h5>Temperature Converter</h5>
+                            <p>A simple, responsive webapp that can perform temperature conversions, built using HTML, CSS and JavaScript</p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projs">
+                        <img src="./images/chat.webp" alt="">
+                        <div class="layer">
+                            <h5>chatting component</h5>
+                            <p>A responsive chatting component built using socket.io</p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacts">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+
+            <h4>Drop your message!!!</h4>
+            <p>
+                If you want to seek any further information about me, drop the message here. <br>
+                Also, feel free to follow my social media accounts.
+            </p>
+            <div class="contact-list">
+                <li><i class="fa-solid fa-envelope fa-shake fa-2xl"></i>komalrajs2002@gmail.com</li>
+                <li><i class="fa-solid fa-phone fa-shake fa-2xl"></i>9019825471</li>
+            </div>
+            <div class="social_media">
+                <a href="#" style="color: black;"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                <a href="#" style="color: green;"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#" style="color: rgb(250, 5, 127)"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" style="color:rgb(31, 31, 228)"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="process.php" method="POST">
+                <input type="text" name="sender" id="sender" placeholder="* Enter your name..." required>
+                <input type="email" name="e-mail" id="e-mail" placeholder="* Enter your email Id..." required>
+                <input type="text" name="subject" id="subject" placeholder="Enter your subject...">
+                <textarea name="message" id="message" cols="40" rows="30" placeholder="* Enter your message..." required></textarea>
+                <input type="submit" value="submit" class="submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copywright">
+            <p>Copywright &copy; 2023 by Komal | All Rights Reserved</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class="fa-solid fa-arrow-up fa-bounce fa-2xl"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        function changeActive(title) {
+            
+            const contents = document.querySelectorAll('.content');
+
+            contents.forEach(content => {
+                content.classList.remove('active');
+                if(content.classList.contains(title)) {
+                    content.classList.add('active');
+                }
+            });
+
+            
+        }
+    </script>
+    
+</body>
+
+</html>
